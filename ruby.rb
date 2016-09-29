@@ -151,3 +151,71 @@
 # 		print " #{num} c'est un Null "
 # 	end
 # 			
+# Exercice 4 - La fourchette
+
+# print "nombre 1..."
+# nu1 = gets.chomp.to_i
+
+# print "nombre 2..."
+# nu2 = gets.chomp.to_i
+
+# print "nombre 3..."
+# nu3 = gets.chomp.to_i
+
+# 	if
+# 		nu1 < nu2 && nu1 > nu3
+
+# 		print " Nombre 1 appartient à l’intervalle !"
+
+# 	elsif 
+# 		nu1 > nu2 && nu1 < nu3
+
+# 		print " Nombre 1 appartient à l’intervalle !"
+# 	else
+
+# 	    print " Nombre 1 n' appartient pas à l’intervalle !"
+# 	end
+
+# Exercice 5 - Nombre de jours dans un mois
+
+# print "Quelle mois..."
+# m = gets.chomp.to_i
+
+# 	 case m
+
+# 		when 1, 3, 5, 7, 8, 10, 12
+
+# 			puts "il y a 31 jours"
+
+# 		when 4, 6, 9, 11
+
+# 			puts "il y a 30 jours"
+
+# 		when 2
+
+# 			puts "il y a 28 jours"
+
+# 		else 
+
+# 			puts " connais  "
+
+
+# 	end
+
+# Exercice 6 - Année bissextile
+
+
+# print "donner une année"
+# a = gets.chomp.to_i
+
+# 	if a % 100 == 0
+# 		print "année non bissextile"
+# 		elsif 
+# 		 	 a % 4 == 0 || a % 400 == 0
+# 			print " année bissextile"
+
+# 		else 
+# 			print "année non bissextile"
+# 	end
+
+# Exercice 7 - Valider une date
